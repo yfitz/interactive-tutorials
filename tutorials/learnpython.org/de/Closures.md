@@ -32,7 +32,7 @@ Dies funktioniert gut, weil die Funkton 'data_transmitter' Zugriff auf die Varia
 
 Ohne das nonlocal Schlüsselwort, hätten wir folgende Ausgabe "3 9", aber, mit diesem, ist die Ausgabe "3 3", dass ist der Wert von der "number" Variable welcher verändert wurde.
 
-Nun wolllen wir das Objekt Funktion zurückleben stat diese aufzurufen.  ( Da in Python Funktionen auch Objekte sind.)
+Nun wolllen wir das Funktion Objekt zurückgeben, statt diese aufzurufen.  ( Da in Python Funktionen auch Objekte sind.)
 
     def transmit_to_space(message):
         "This is the enclosing function"
