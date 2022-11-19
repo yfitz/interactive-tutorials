@@ -54,7 +54,7 @@ Und wir rufen die Funktion wie folgt auf:
   	  fun2 = transmit_to_space("Burn the Sun!")
   	  fun2()
 
-Obwohl die Ausführung von "transmit_to_space()" beendet ist, die Nachicht in message bleibt erhalten. Diese Technik nach der die Daten aushalb des enschließenden Codes noch noch erhalten bleibt nennt man in Python Closure. 
+Obwohl die Ausführung von "transmit_to_space()" beendet ist, die Nachicht in message bleibt erhalten. Diese Technik nach der die Daten aushalb des einschließenden Codes doch noch erhalten bleibt nennt man in Python Closure. 
 
 VORTEIL : Closures lassen uns globale Variablen vermeiden und liefern trotzdem ein Form des Informations Verbergens (Data Hiding) an. Zum Beispiel wenn es ein paar Methoden in einer Klasse gibt, verwenden wir Closures stattdessen.
 
