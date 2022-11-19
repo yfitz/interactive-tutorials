@@ -26,7 +26,7 @@ wird verwendet bei Integer Eingaben. Der Vorteil gegenüber raw_input() kann mit
     print a #prints 4
     print b #prints 2*2
 
-### Wie mehrere Eingabe in einer Zeile durch Leerzeichen getrennt gemacht werden können:spaces?
+### Wie mehrere Eingabe in einer Zeile durch Leerzeichen getrennt gemacht werden können:
 Hier verwenden wir  die Funktionen split() und map()
 
     #gebe zwei Integer Werte ein in der ersten Zeile und zwei in der dritten Zeile 
