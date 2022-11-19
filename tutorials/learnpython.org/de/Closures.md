@@ -1,12 +1,12 @@
 Tutorial
 --------
 
-Eine Closure ist ein Objekt von Typ Funktion, dass Werte speichert in einem Gültigkeitsbereich, auch wenn die nicht im Speicher gehalten werden. Erstmal Schritt für Schritt.
+Eine **Closure** ist ein Objekt von Typ Funktion, dass Werte speichert in einem Gültigkeitsbereich, auch wenn die nicht im Speicher gehalten werden. Erstmal Schritt für Schritt.
 
-Zuerst, eine  **Nested Function** ist eine Funktion, die in einer anderen Funktion definiert wurde. Es ist wichtig zu beachten, dass die nested Funktion (eingeschlossene Funktion)
-auf die Variablen des inneren Gültigkeitsbereich zugreifen können. Jedoch, sind diese in Python, wenigstens nur readonly. Durch das Schlüsselwort "nonlocal" explizit mit diesen Variablen, können diese verändert werden.  
+Zuerst, eine  **Nested Function** ist eine Funktion, die in einer anderen Funktion definiert wurde. Es ist wichtig zu beachten, dass die Nested Funktion (eingeschlossene Funktion) auf die Variablen des inneren Gültigkeitsbereich zugreifen kann. Jedoch, sind diese in Python, wenigstens nur readonly. Durch das Schlüsselwort "nonlocal" explizit mit diesen Variablen, können diese verändert werden.  
 
 Zum Beispiel:
+
     def transmit_to_space(message):
         "This is the enclosing function"
         def data_transmitter():
