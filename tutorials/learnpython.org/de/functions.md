@@ -3,7 +3,7 @@ Tutorial
 
 ### Was sind Funktionen?
  
-Die Funktion ist eine konventielle Methode um Code in Blöcke zu unterteilen, welches das Programm strukturiert, die Lesbarkeit erhöht, Wiederverwendbarkeit ermöglicht und Zeit sparend ist. Ausserdem lassen sich Funktionen als Interfaces definieren um Code für andere Programmierer auszutauschen. 
+Der Einsatz von Funktionen ist eine konventielle Methode um Code in Blöcke zu unterteilen, welche das Programm strukturieren, die Lesbarkeit erhöhen, die Wiederverwendbarkeit ermöglichen und Zeit sparen. Ausserdem lassen sich Funktionen als Interfaces definieren um Code für andere Programmierer auszutauschen. 
 
 ### Wie erzeugt man Funktionen in Python?
 
